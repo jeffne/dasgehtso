@@ -1,0 +1,34 @@
+.root {
+    background-color: #19634b;
+    color: #dbdd99;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.picture {
+    transition: 1s ease;
+    width: 20%;
+    display: flex;
+
+
+    position: relative;
+    text-align: center;
+}
+
+a {
+    color: aliceblue;
+}
+
+.imageSetting {
+    width: 20%;
+    /*    height: 500px;*/
+    height: calc(50vh - 50px);
+    object-fit: cover;
+}
+
+.picture:hover {
+    width: 100%;
+}
